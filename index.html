@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- Theme Made By www.w3schools.com - No Copyright -->
   <title>A creative coder</title>
@@ -10,109 +11,143 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
-  body {
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.8;
-    color: #a0d39b;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 { 
-    background: linear-gradient(to bottom, rgba(147, 172, 162, 0.5) 0%, rgba(155, 184, 173, 0.5) 100%), url("forest.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 800px;
-    color: #ffffff;
-  }
-  .bg-2 { 
-    background-color: #474e5d; /* Dark Blue */
-    color: #ffffff;
-  }
-  .bg-3 { 
-    background-color: #ffffff; /* White */
-    color: #555555;
-  }
-  .bg-4 { 
-    background-color: #2f2f2f; /* Black Gray */
-    color: #fff;
-  }
-  .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 15px;
-    letter-spacing: 5px;
-    background-color: #2f2f2f;
-  }
-  .navbar-nav  li a, .navbar-brand{
-    color: #ffffff !important;
-  }
+    body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #a0d39b;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    .margin {
+      margin-bottom: 45px;
+    }
+
+    .bg-1 {
+      background: linear-gradient(to bottom, rgba(147, 172, 162, 0.5) 0%, rgba(155, 184, 173, 0.5) 100%), url("forest.jpg");
+      background-size: cover;
+      width: 100%;
+      height: 800px;
+      color: #ffffff;
+    }
+
+    .bg-1 h3 {
+      margin-top: 200px;
+    }
+
+    .bg-2 {
+      background-color: #474e5d;
+      /* Dark Blue */
+      color: #ffffff;
+    }
+
+    .bg-3 {
+      background-color: #ffffff;
+      /* White */
+      color: #555555;
+    }
+
+    .bg-4 {
+      background-color: #2f2f2f;
+      /* Black Gray */
+      color: #fff;
+    }
+
+    .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+
+    .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 15px;
+      letter-spacing: 5px;
+      background-color: #2f2f2f;
+    }
+
+    .navbar-nav li a,
+    .navbar-brand {
+      color: #ffffff !important;
+    }
 
 
 
-  .navbar-nav  li a:hover, .navbar-brand:hover{
-    color: #1abc9c !important;
-  }
+    .navbar-nav li a:hover,
+    .navbar-brand:hover {
+      color: #1abc9c !important;
+    }
+
+    hr{
+      width: 75px;
+      height: 1px;
+      background-color: red;
+      border: none;
+    }
   </style>
 </head>
+
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="index.html">A Creative Coder</a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">A Creative Coder</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="scratch.html">Scratch</a></li>
+          <li><a href="python.html">Python</a></li>
+          <li><a href="minecraft.html">Minecraft</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="scratch.html">Scratch</a></li>
-        <li><a href="python.html">Python</a></li>
-        <li><a href="#">Minecraft</a></li>
-      </ul>
-    </div>
+  </nav>
+
+  <!-- First Container -->
+  <div class="container-fluid bg-1 text-center">
+    <!-- img src="" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350"
+      height="350" -->
+    <h3 style="font-size: xx-large;">Path to my DREAMS!</h3>
   </div>
-</nav>
 
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <img src="bali.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
-  <h3>Path to my DREAMS!</h3>
-</div>
+  <!-- Third Container (Grid) -->
+  <div class="container-fluid bg-3 text-center">
+    <h3 class="margin">My Portfolio</h3>
+    <hr>
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Games and stories on Scratch</h3>
+        <a href="scratch.html"><img src="scratch.jpeg" class="img-responsive margin" style="width:100%" alt="Image"></a>
+      </div>
+      <div class="col-sm-4">
+        <h3>Flags of the World in Python</h3>
+        <a href="python.html"><img src="python.png" class="img-responsive margin" style="width:100%" alt="Image"></a>
+      </div>
+      <div class="col-sm-4">
+        <h3>Monument & Pixel-art in minecraft</h3>
+        <a href="minecraft.html"><img src="minecraft-logo.jpg" class="img-responsive margin" style="width:100%"
+            alt="Image"></a>
+      </div>
+    </div>
 
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
-  <h3 class="margin">My Portfolio</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Scratch</h3>
-      <img src="scratch.png" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <h3>Minecraft</h3>
-      <img src="mc.png" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <h3>Python</h3>
-      <img src="py.png" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div>
-
-<!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
-</footer>
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+      <p>Copyright 2020 - Ayush Sankaran</p>
+    </footer>
 
 </body>
+
 </html>
